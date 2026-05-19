@@ -61,18 +61,18 @@ Consulta informações de um pagamento.
 
 O microsserviço possui as seguintes dependências:
 
-1. Microsserviço de Pedidos;
-2. Banco de dados PostgreSQL;
-3. RabbitMQ para mensageria;
-4. API externa da operadora de cartão.
+- Microsserviço de Pedidos;
+- Banco de dados PostgreSQL;
+- RabbitMQ para mensageria;
+- API externa da operadora de cartão.
 
 ---
 
 ## 4. Responsável pelo Serviço
 
-Responsável: Carlos Eduardo Souza Martins
+**Responsável:** Carlos Eduardo Souza Martins
 
-Equipe: Desenvolvimento Backend
+**Equipe:** Desenvolvimento Backend
 
 ---
 
@@ -106,10 +106,10 @@ npm start
 
 ## 6. Regras de Negócio
 
-1. O pagamento deve possuir valor maior que zero;
-2. Apenas métodos válidos podem ser utilizados;
-3. O pedido deve existir antes do pagamento;
-4. Pagamentos recusados não atualizam o status do pedido.
+- O pagamento deve possuir valor maior que zero;
+- Apenas métodos válidos podem ser utilizados;
+- O pedido deve existir antes do pagamento;
+- Pagamentos recusados não atualizam o status do pedido.
 
 ---
 
@@ -130,11 +130,11 @@ npm start
 
 As principais métricas monitoradas são:
 
-1. Tempo médio de resposta;
-2. Taxa de erros HTTP 500;
-3. Quantidade de pagamentos processados;
-4. Uso de CPU e memória;
-5. Disponibilidade do serviço.
+- Tempo médio de resposta;
+- Taxa de erros HTTP 500;
+- Quantidade de pagamentos processados;
+- Uso de CPU e memória;
+- Disponibilidade do serviço.
 
 ---
 
