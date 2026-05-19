@@ -68,6 +68,20 @@ O microsserviço possui as seguintes dependências:
 
 ---
 
+## Arquitetura do Serviço
+
+```text
+Cliente
+   ↓
+Microsserviço de Pagamentos
+   ↓
+PostgreSQL
+   ↓
+RabbitMQ
+```
+
+---
+
 ## 4. Responsável pelo Serviço
 
 **Responsável:** Carlos Eduardo Souza Martins
