@@ -14,6 +14,14 @@ app.post('/pagamentos', (req, res) => {
   });
 });
 
+app.get('/pagamentos/:id', (req, res) => {
+  res.json({
+    transacaoId: 'TRX987654',
+    status: 'aprovado',
+    valor: 299.90
+  });
+});
+
 app.listen(3000, () => {
   console.log('Microsserviço rodando na porta 3000');
 });
