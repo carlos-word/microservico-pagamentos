@@ -1,9 +1,12 @@
 {
   "name": "microservico-pagamentos",
   "version": "1.0.0",
-  "description": "Microsserviço de pagamentos",
+  "description": "Microsserviço de pagamentos para plataforma de e-commerce",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
